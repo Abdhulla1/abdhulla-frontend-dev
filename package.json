@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abdhulla1.github.io/abdhulla-dev-portfolio/",
+  "homepage": "https://abdhulla1.github.io/abdhulla-frontend-dev/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
