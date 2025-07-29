@@ -1,26 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap");
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  @apply bg-[#E0E8F6] text-[#484E53] dark:bg-[#1A1A1A] dark:text-[#E1E1E1];
+}
+@theme {
+  --font-oleo: "Oleo Script", cursive;
+  --font-montserrat: "Montserrat", sans-serif;
+  --lightbg: #E0E8F6;
+  --color-darkbg: #1A1A1A;
+  --color-lighttext: #484E53;
+  --color-darktext: #ffffff;
 }
