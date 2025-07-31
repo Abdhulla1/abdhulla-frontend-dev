@@ -2,7 +2,7 @@ import { Oleo_Script, Montserrat } from "next/font/google";
 import "./globals.css";
 import Provider from "../../components/Provider";
 import NavBar from "../../components/Navbar/NavBar";
-
+import Footer from "../../components/Footer";
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
         <Provider>
           <NavBar />
           {children}
+          <Footer/>
         </Provider>
       </body>
     </html>

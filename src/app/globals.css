@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oleo+Script:wght@400;700&display=swap");
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
+@import 'boxicons/css/boxicons.min.css';
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -16,4 +17,7 @@ body {
   --color-darkbg: #1A1A1A;
   --color-lighttext: #484E53;
   --color-darktext: #ffffff;
+}
+html {
+  scroll-behavior: smooth;
 }

@@ -4,6 +4,11 @@ import Image from "next/image";
 import { useTheme } from "next-themes";
 import HeroSection from "../../components/HeroSection";
 import About from "../../components/About";
+import Skills from "../../components/Skills";
+import Form from "../../components/Form";
+import Projects from "../../components/Projects";
+
+
 export default function Home() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -19,8 +24,14 @@ export default function Home() {
       <section id="about">
         <About />
       </section>
-      <section id="projects" className="pt-20 mt-40 h-full">
-        <h2>projects Me</h2>
+      <section id="skills">
+        <Skills/>
+      </section>
+      <section id="projects">
+        <Projects/>
+      </section>
+      <section id="contact" >
+        <Form/>
       </section>
     </main>
   );

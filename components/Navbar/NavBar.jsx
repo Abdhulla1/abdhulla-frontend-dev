@@ -7,9 +7,9 @@ import { useTheme } from "next-themes";
 const menu = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
+  { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "#services", label: "Services" },
-  { href: "#resume", label: "Resume" },
+  { href: "https://drive.usercontent.google.com/download?id=1br76OuoXoq3ov31rRVWYvkzjazCDoCJ5&export=download", label: "Resume" },
 ];
 
 export default function NavBar() {
@@ -39,7 +39,7 @@ export default function NavBar() {
   }, []);
   if (!mounted) return null;
   return (
-    <nav className="flex fixed items-center justify-between lg:justify-around w-full h-10 px-10  backdrop-blur lg:px-28 py-16 ">
+    <nav className="flex fixed items-center justify-between lg:justify-around w-full h-10 px-10  backdrop-blur lg:px-28 py-16 z-10 ">
       <Link href="#" className=" p-3 text font-oleo text-3xl ">
         {" "}
         Abdhulla{" "}
@@ -164,7 +164,7 @@ export default function NavBar() {
       </div>
 
       <Link
-        href="#"
+        href="#contact"
         className="hidden lg:block lg:py-2 lg:px-5 lg:text lg:border-2 lg:rounded-xl  dark:border-[#4FC3F7]"
       >
         {" "}
