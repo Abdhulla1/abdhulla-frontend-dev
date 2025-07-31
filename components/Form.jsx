@@ -16,7 +16,7 @@ export default function Form() {
         <input
           type="hidden"
           name="_next"
-          value="https://yourwebsite.com/thank-you"
+          value="https://abdhulla-fronend-dev.netlify.app/thanks"
         />
 
         <label className="block">
