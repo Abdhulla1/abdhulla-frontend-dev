@@ -4,6 +4,12 @@ import ProjectCard from "./Reusable/ProjectCard";
 
 const projectsData = [
   {
+    image: "/images/project.png",
+    title: "Annex Global Conferences",
+    skills: ["NextJs", "React","Tailwindcss","HTML","CSS"],
+    projectLink: "https://annexglobalconferences.com/",
+  },
+  {
     image: "/images/project-1.png",
     title: "Employee Management System",
     skills: ["Java", "Springboot", "React","MySQL","front-end integration"],
