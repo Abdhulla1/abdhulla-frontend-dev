@@ -9,7 +9,7 @@ const menu = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "https://drive.usercontent.google.com/download?id=1br76OuoXoq3ov31rRVWYvkzjazCDoCJ5&export=download", label: "Resume" },
+  { href: "https://drive.usercontent.google.com/download?id=1j7g_gkrbttcE6pulUsy_tNQQ8dkzHtc1&export=download", label: "Resume" },
 ];
 
 export default function NavBar() {

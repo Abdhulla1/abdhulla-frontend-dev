@@ -12,7 +12,7 @@ export default function About() {
 
       </p>{" "}
       <Link
-        href="https://drive.usercontent.google.com/download?id=1br76OuoXoq3ov31rRVWYvkzjazCDoCJ5&export=download"
+        href="https://drive.usercontent.google.com/download?id=1j7g_gkrbttcE6pulUsy_tNQQ8dkzHtc1&export=download"
         className=" mt-7 block py-2 px-5 text border-2 rounded-2xl border-[#4FC3F7]"
       >
         {" "}
