@@ -6,7 +6,7 @@ const projectsData = [
   {
     image: "/images/project.png",
     title: "Annex Global Conferences",
-    skills: ["NextJs", "React","Tailwindcss","HTML","CSS"],
+    skills: ["NextJs", "React","JavaScript","Tailwindcss","HTML","CSS"],
     projectLink: "https://annexglobalconferences.com/",
   },
   {
@@ -18,13 +18,13 @@ const projectsData = [
   {
     image: "/images/project-2.png",
     title: "Online Hotel Booking Management System",
-    skills: ["Java", "Springboot", "React","MySQL","Bootstrap "],
+    skills: ["Java", "Springboot", "React","JavaScript","MySQL","Bootstrap "],
     projectLink: "https://github.com/Abdhulla1/Online-Hotel-Booking-Management-System",
   },
   {
     image: "/images/foodieApp.png",
     title: "Foodie App",
-    skills: ["NextJs", "React","SQLlite3","HTML","CSS"],
+    skills: ["NextJs", "React","JavaScript","SQLlite3","HTML","CSS"],
     projectLink: "https://foodiewebappp.netlify.app/",
   }
 ];
