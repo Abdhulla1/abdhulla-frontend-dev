@@ -168,7 +168,7 @@ export default function NavBar() {
         className="hidden lg:block lg:py-2 lg:px-5 lg:text lg:border-2 lg:rounded-xl  dark:border-[#4FC3F7]"
       >
         {" "}
-        Contact
+        Hire Me
       </Link>
       <button
         className="hidden lg:block lg:p-3  "
