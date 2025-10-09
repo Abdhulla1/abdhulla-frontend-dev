@@ -9,6 +9,16 @@ const skills=[
   {title:'JavaScript ',description:'Developed interactive and dynamic web functionalities using JavaScript (ES6+), focusing on DOM manipulation, event handling, and API integration.',icon:'/images/javascript.svg'},
   {title:'React',description:'Structured clean and semantic web content using HTML5 to ensure accessibility, SEO optimization, and responsive layouts.',icon:'/images/react.svg'},
   {title:'Next.js',description:'Developed fast, SEO-friendly web applications using Next.js , leveraging server-side rendering, routing, and optimized performance.',icon:'/images/nextjs.svg'},
+    { 
+  title: 'Java',
+  description: 'Developed robust backend logic and applications using Java, leveraging OOP principles and frameworks for scalable and efficient performance.',
+  icon: '/images/java.svg'
+},
+{
+  title: 'MySQL',
+  description: 'Designed and managed relational databases with MySQL, writing optimized queries and ensuring data integrity and performance tuning.',
+  icon: '/images/mysql.svg'
+},
   {title:'Figma',description:'Used Figma to interpret and translate UI/UX designs into responsive web layouts, ensuring design accuracy and visual consistency in development.',icon:'/images/figma.svg'},
   {title:'GitHub',description:'Used GitHub for version control, project collaboration, and managing code through branches, pull requests, and issue tracking.',icon:'/images/github-icon.svg'},
   {title:'Netlify',description:'Deployed and hosted frontend web applications using Netlify, enabling continuous deployment, custom domains, and fast global delivery.',icon:'/images/netlify.svg'},
