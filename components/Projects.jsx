@@ -21,12 +21,12 @@ const projectsData = [
     skills: ["Java", "Springboot", "React","JavaScript","MySQL","Bootstrap "],
     projectLink: "https://github.com/Abdhulla1/Online-Hotel-Booking-Management-System",
   },
-  {
-    image: "/images/foodieApp.png",
-    title: "Foodie App",
-    skills: ["NextJs", "React","JavaScript","SQLlite3","HTML","CSS"],
-    projectLink: "https://foodiewebappp.netlify.app/",
-  }
+  // {
+  //   image: "/images/foodieApp.png",
+  //   title: "Foodie App",
+  //   skills: ["NextJs", "React","JavaScript","SQLlite3","HTML","CSS"],
+  //   projectLink: "https://foodiewebappp.netlify.app/",
+  // }
 ];
 
 export default function Projects() {
